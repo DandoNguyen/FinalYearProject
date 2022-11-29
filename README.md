@@ -3,7 +3,10 @@
 An API for Vinhomes Resident like web and mobile application using .NET 6
 
 ### Installation
-1. Required [Dotnet 6 SDK 6.0.400](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.400-windows-x64-installer)
+1. Required [Dotnet 6 SDK 6.0.400](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.400-windows-x64-installer) and .NET Enity Framework
+```bash
+dotnet tool install --global dotnet-ef
+```
 
 2. Clone master branch
 
@@ -25,3 +28,10 @@ Add Look Up Data with this [excel file](https://mega.nz/file/55MAhL4D#Qj_bMHaprK
 
 ### Infrastructure Excel
 Add Block and Apartment Detail with this [excel file](https://mega.nz/file/x19hBCpa#ONAk9B7P87-VvNGBRmMnUpKFn_0GwEQrqY1P4Mlm6og)
+
+## Frontend
+### Installation
+```bash 
+npm install
+yarn dev
+```
